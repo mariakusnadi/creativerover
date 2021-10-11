@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway&display=swap');
+
+body{
+    background-color: #0C1030;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#container24{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    display: block;
+}
+
+#container12{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    display: none;
+}
+
+.show-date, .show-day{
+    color: #7DF9D3;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.show-time{
+    color: #7DF9D3;
+    font-size: 200px;
+    letter-spacing: 3px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.changeTime{
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #4AB9D8;
+    border: 2px solid #4AB9D8;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .show-date, .show-day{
+        width: 100%;
+        display: block;
+        color: #7DF9D3;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 12px;
+    }
+    
+    .show-time{
+        color: #7DF9D3;
+        font-size: 48px;
+        letter-spacing: 3px;
+        font-family: 'Fredoka One', cursive;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    
+    .changeTime{
+        background: transparent;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: #4AB9D8;
+        border: 100% solid #4AB9D8;
+        border-radius: 3px;
+        padding: 5px;
+    }
+}
